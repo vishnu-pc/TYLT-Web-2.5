@@ -3,9 +3,9 @@ import DynamicCanvas from './landing-components/dynamicCanvas';
 export function landingPage() {
 
     return (
-        <div className='landingPageElement'>
+        <div className="landingPageElement">
             <DynamicCanvas /> 
-            Next
+            {/* Next */}
         </ div>
     );
 }

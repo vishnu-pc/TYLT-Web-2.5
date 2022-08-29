@@ -1,8 +1,15 @@
 export function dynamicCanvas() {
 
     return (
-        <div className='dynamicCanvasElement'>
-            Dynamic Canvas
+        <div className="dynamicCanvasElement">
+            <div className="canvasTextElements">
+                <div className="canvasHeading">
+                    TYLT
+                </div>
+                <div className="canvasTagLine">
+                    Think Tylted
+                </div>
+            </div>
         </div>
     );
 }
