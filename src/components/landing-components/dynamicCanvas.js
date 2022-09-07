@@ -1,11 +1,11 @@
-export function dynamicCanvas() {
+export function DynamicCanvas() {
 // This is a long one. I hope this over-commenting helps. Let's do this!
 
 // Let's put our settings up top so we can change them easily
 let settings = {
   spotlightRadius: 200,
-  boxCount: 50,
-  moveSpeed: 1,
+  boxCount: 100,
+  moveSpeed: 3,
   turboSpeed: 5,
 }
 
@@ -406,4 +406,4 @@ window.onload = function() {
     );
 }
 
-export default dynamicCanvas;
+export default DynamicCanvas;
