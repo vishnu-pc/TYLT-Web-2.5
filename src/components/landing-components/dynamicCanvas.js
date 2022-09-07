@@ -4,7 +4,7 @@ export function DynamicCanvas() {
 // Let's put our settings up top so we can change them easily
 let settings = {
   spotlightRadius: 200,
-  boxCount: 100,
+  boxCount: 50,
   moveSpeed: 3,
   turboSpeed: 5,
 }
@@ -390,7 +390,7 @@ window.onload = function() {
             marginBottom: "1.7vh",
             fontFamily: 'Alatsi',
             letterSpacing: "1vw",
-            color: "white"}}>
+            color: "black"}}>
                      TYLT
                  </div>
                  <div className="canvasTagLine" style={{fontSize: "0.8vw",
@@ -398,7 +398,7 @@ window.onload = function() {
             marginBottom: "1.7vh",
             fontFamily: 'Alatsi',
             letterSpacing: "1vw",
-            color: "white"}}>
+            color: "black"}}>
                      Look Beyond
                  </div>
              </div>

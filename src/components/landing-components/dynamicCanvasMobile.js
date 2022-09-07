@@ -390,7 +390,7 @@ export function DynamicCanvasMobile() {
                 marginBottom: "1.7vh",
                 fontFamily: 'Alatsi',
                 letterSpacing: "1vw",
-                color: "white"}}>
+                color: "black"}}>
                          TYLT
                      </div>
                      <div className="canvasTagLine" style={{fontSize: "0.8vw",
@@ -398,7 +398,7 @@ export function DynamicCanvasMobile() {
                 marginBottom: "1.7vh",
                 fontFamily: 'Alatsi',
                 letterSpacing: "1vw",
-                color: "white"}}>
+                color: "black"}}>
                          Look Beyond
                      </div>
                  </div>
